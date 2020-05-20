@@ -1,9 +1,12 @@
-import React from "react";
-import '../css/personalcenter.scss'
-import Post from '../shared/indexcomponents/postWb/post'
-import Listdata from './personalcenter/listdata'
-import Inforshow from './personalcenter/inforshow'
-import Follow  from './personalcenter/follow'
+import React from 'react'
+import ReactDom from 'react-dom'
+
+
+import '@/css/personalcenter/personalcenter.scss'
+import Post from '@/components/indexcomponents/post'
+import Listdata from '@/components/personalcenter/listdata'
+import Inforshow from '@/components/personalcenter/inforshow'
+import Follow  from '@/components/personalcenter/follow'
 
 
 export default  class Yourpage extends React.Component{
@@ -48,7 +51,7 @@ export default  class Yourpage extends React.Component{
                                 </div>
                             {/*所有帖子面板*/}
                                 <div role="tabpanel" className="tab-pane" id="all-post">
-                                    
+                                    <Post></Post>
                                 </div>
                             
                       </div> 

@@ -11,7 +11,7 @@ export default class ImgPost extends React.Component{
 
         return(
             <div className="weiboImage">
-                <ul>
+                <ul className="imgback">
                     {Imgdata}
                 </ul>
             </div>

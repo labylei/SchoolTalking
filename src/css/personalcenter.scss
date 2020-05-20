@@ -1,0 +1,48 @@
+.forbackground img{
+    width: 1100px;
+    height: 350px;
+    margin-top: -20px;
+}
+.foravatar img{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    left: 80px;
+    top:160px
+}
+.forname h2{
+    color: white;
+    position: absolute;
+    left: 310px;
+    top:200px;
+}
+.forintru h3{
+    color: white;
+    position: absolute;
+    left:310px;
+    top:250px;
+
+}
+.forlist{
+    margin-top: 60px;
+    
+}
+.fornav{
+    background-color: white;
+    a{
+        color: #555555
+        
+    }
+    li{
+        width: 125.01px;
+    }
+}
+.follweavatar img{
+    width: 64px;
+    height: 64px;
+}
+.forfollow button{
+    position: absolute;
+    right:100px;
+    top:260px;
+}
