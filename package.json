@@ -6,15 +6,31 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
+    "bootstrap": "3.3.7",
+    "flow-bin": "^0.125.1",
+    "http-proxy-middleware": "^1.0.4",
+    "husky": "^4.2.5",
+    "jquery": "^3.5.1",
+    "lint-staged": "^10.2.3",
+    "node-sass": "^4.14.1",
+    "popper.js": "^1.16.1",
+    "prettier": "^2.0.5",
     "react": "^16.13.1",
+    "react-bootstrap": "^1.0.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1",
+    "reactstrap": "^8.4.1",
+    "sass-loader": "^8.0.2",
+    "source-map-explorer": "^2.4.2"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "analyze": "source-map-explorer build/static/js/main.*",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "flow": "flow"
   },
   "eslintConfig": {
     "extends": "react-app"

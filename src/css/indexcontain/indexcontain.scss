@@ -1,0 +1,40 @@
+//你可能认识 右边的刷新按钮
+h3 button{
+    background-color: transparent;
+    margin-left: 100px;
+}
+
+//中间的动态选项
+.forul ul{
+    background: #f5f5f5;
+    border-radius: 3px;
+    //border: white 1px solid;
+   // border-color: white;
+}
+.forul ul li a{
+    /*line-height:2;*/
+    //border:1px white solid;
+    margin-right: -1px;
+    color: #808080;
+    //border-radius: 5px;
+    width: 108px;
+}
+
+.forul ul :active a,  a:hover,  a:focus{
+    border-bottom: solid 2px rgb(241, 141, 0) !important;
+    //background: rgb(241, 141, 0) !important;
+    color:rgb(241, 141, 0) !important;
+    font-weight: bold;
+}
+
+.forul ul>li>a { 
+    position: relative;
+    display: block;
+     padding: 5px 5px;
+}
+
+
+//帖子面版  
+.fortabpanel{
+    margin-top: auto;
+}

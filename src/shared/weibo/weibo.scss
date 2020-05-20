@@ -1,0 +1,112 @@
+//帖子的css
+.big-center{
+    width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+    flex-direction: column;
+    background-color: #fffdff;
+    position: relative;
+  }
+
+  
+  .big-center .ow-left{
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px 10px 10px 10px;
+  }
+  //昵称和时间
+  .ow-nickrow{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+  }
+  .ow-nickrow .timeandname{
+    display: flex;
+    justify-content: space-between;
+  }
+  .big-center .nick-img{
+    width: 80px;
+    height: 80px;
+    border-radius: 40px;
+    margin-right: 10px;
+  }
+
+  //帖子文字
+  .ow-contentrow{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    flex: 1;
+  }
+
+  //帖子图片
+  .weiboImage{
+    margin-top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0px;
+  }
+  .weiboImage .imgList{
+    list-style: none;
+    float: left;
+    margin-right: 10px;
+    align-self: center;
+  }
+  .weiboImage .imgList .img{
+    width: 100px;
+    height: 100px;
+  }
+
+  .ow-footerrow{
+    top: -10px;
+    position: relative;
+  }
+  
+  .ow-footerrow .clearfix{
+    display: flex;
+    height: 40;
+    align-items: center;
+    margin-left: -40px;
+  }
+  .ow-footerrow .fengexian{
+    height: 20px;
+    width: 1px;
+    background-color: grey;
+  }
+  .ow-footerrow .li-side-border{
+    display: flex;
+    color: grey;
+    flex: 1.0;
+    font-size: 16px;
+    justify-content: center;
+  }
+
+  //评论区头像
+  .little-head{
+    width: 35px;
+    height: 35px;
+    left: 20px;
+    position: relative;
+  }
+  .textarea{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin-bottom: 10px;
+    justify-content: space-between;
+  }
+  .commentStyle{
+    width: 100px;
+    background:#ff8146;
+    margin-top: 10px;
+    border: 1px solid #f77c3d;
+    color: #fff;
+    height: 25px;
+    font-size: 14px;
+  }
+  .contentname{
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+  }

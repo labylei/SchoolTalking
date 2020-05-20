@@ -1,0 +1,23 @@
+
+
+h3{
+    &:hover{
+    color:rgb(241, 141, 0)
+    }
+}
+textarea{
+    border:1.5px solid rgb(241, 141, 0);
+}
+.for button{
+    background-color: transparent;
+    margin:5px 5px;
+    :active,:hover,:focus{
+        color: rgb(241, 141, 0);
+    }
+    span{
+        font-size: 25px;
+    }
+}
+button{
+    margin-left: 620px;
+}

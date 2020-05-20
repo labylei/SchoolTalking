@@ -1,0 +1,24 @@
+
+/*除去a连接下划线*/
+a{
+    &:hover{
+        span{
+            color: rgb(241, 141,0);
+        }
+        i{
+            color: rgb(241, 141,0);
+        }
+    }
+    text-decoration: none;
+}
+
+i{
+    color: red;
+    font-size: 18px;
+    margin-left: 6px;
+}
+span{
+    margin: 0 5px;
+    font-size: 20px;
+   border-bottom: none;
+}

@@ -1,0 +1,17 @@
+      //帖子图片
+      .weiboImage{
+        margin-top: 0px;
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 0px;
+      }
+      .weiboImage .imgList{
+        list-style: none;
+        float: left;
+        margin-right: 10px;
+        align-self: center;
+      }
+      .weiboImage .imgList .img{
+        width: 100px;
+        height: 100px;
+      }
