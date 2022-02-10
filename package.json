@@ -12,7 +12,7 @@
     "husky": "^4.2.5",
     "jquery": "^3.5.1",
     "lint-staged": "^10.2.3",
-    "node-sass": "^4.14.1",
+    "node-sass": "^7.0.0",
     "popper.js": "^1.16.1",
     "prettier": "^2.0.5",
     "react": "^16.13.1",
